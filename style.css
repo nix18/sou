@@ -25,6 +25,7 @@ body {
     position: relative;
     overflow: hidden;
     background: #fff;
+    background:url("https://img.xjh.me/random_img.php?return=302&type=bg&ctype=nature") no-repeat center;
 }
 
 html {
@@ -135,7 +136,7 @@ a {
 }
 
 
-.con .sou form .wd:focus {
+.con .sou form .wd:hover {
     background: #fff;
     box-shadow: 0 0px 15px 0 rgba(32, 33, 36, 0.2);
     border-color: #fff
@@ -175,14 +176,22 @@ a {
 }
 
 .foot {
-    position: absolute;
-    bottom: 10px;
+    display: block;
+    margin:0 auto;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    width: 300px;
+    background: rgba(255,255,255,0.8);
+    top: 92%;
     text-align: center;
-    width: 100%;
     color: #999;
     height: 20px;
     line-height: 20px;
     font-size: 12px;
+}
+
+.foot:hover{
+    background: rgba(255,255,255,0.92);
 }
 
 .home {
@@ -206,6 +215,8 @@ a {
 #menu {
     width: 50px;
     height: 50px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 25px;
     transform: scale(0.8);
     position: absolute;
     right: 10px;
@@ -213,6 +224,10 @@ a {
     z-index: 2000000;
     cursor: pointer;
     transition: 0.5s;
+}
+
+#menu:hover{
+    background: rgba(255,255,255,0.95);
 }
 
 #menu i {
