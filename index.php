@@ -9,7 +9,7 @@ if (empty($q)) {
     echo'<script>window.location.href="//www.baidu.com/s?ie=utf-8&word='.$q.'";</script>';
   }else{
     //默认谷歌
-    echo'<script>window.location.href="https://www.google.com.hk/search?hl=zh&q='.$q.'";</script>';
+    echo'<script>window.location.href="https://www.google.com/search?hl=zh&q='.$q.'";</script>';
   }
 };
 ?>
@@ -21,10 +21,10 @@ if (empty($q)) {
   <meta http-equiv="Cache-Control" content="no-siteapp">
   <meta name="referrer" content="no-referrer" />
   <meta name="theme-color" content="#ffffff">
-  <link rel="icon" href="icon/280.png?v=1.0.1" sizes="280x280" />
-  <link rel="apple-touch-icon-precomposed" href="icon/280.png?v=1.0.1" />
-  <meta name="msapplication-TileImage" content="icon/280.png?v=1.0.1" />
-  <link rel="shortcut icon" href="icon/32.png?v=1.0.1"/>
+  <link rel="icon" href="icon/300.png?v=1.0.1" sizes="280x280" />
+  <link rel="apple-touch-icon-precomposed" href="icon/300.png?v=1.0.1" />
+  <meta name="msapplication-TileImage" content="icon/300.png?v=1.0.1" />
+  <link rel="shortcut icon" href="icon/96.png?v=1.0.1"/>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-touch-fullscreen" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -32,7 +32,7 @@ if (empty($q)) {
   <meta name="browsermode" content="application"><!--UC应用模式-->
   <meta name="x5-fullscreen" content="true"><!--QQ强制全屏-->
   <meta name="x5-page-mode" content="app"><!--QQ应用模式-->
-  <title>简单搜索</title>
+  <title>Sou</title>
   <link href="style.css?t=<?php echo date("ymdhi"); ?>" rel="stylesheet">
   <link href="wea.css?t=<?php echo date("ymdhi"); ?>" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
@@ -42,7 +42,7 @@ if (empty($q)) {
 </head>
 
 <body>
-    <script>
+    <!--<script>
     /*随机bing背景start,如无需求可注释掉*/
     $.ajax({
         url: './bg/',
@@ -57,7 +57,7 @@ if (empty($q)) {
         }
     });
     /*随机bing背景end*/
-    </script> 
+    </script> -->
     <div id="menu"><i></i></div>
     <div class="list closed">
         <ul>
@@ -96,7 +96,7 @@ if (empty($q)) {
             <li><a rel="nofollow" href="https://www.taobao.com" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-taobao"></use></svg>淘宝网</a></li>
             <li><a rel="nofollow" href="https://dyartstyle.com/juhuasuan/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-juhuasuan"></use></svg>聚划算</a></li>
             <li><a rel="nofollow" href="https://dyartstyle.com/temai/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-temai"></use></svg>淘宝特卖</a></li>
-            <li><a rel="nofollow" href="https://mobile.yangkeduo.com/duo_cms_mall.html?pid=8742514_71211367&cpsSign=CM_190605_8742514_71211367_92fdd9f7fb637fec599bf556f263ed1f&duoduo_type=2&launch_wx=1" title="拼多多手机端专属商城，超低价商品火热抢购中，更有超多大额优惠券持续发放，一键立抢>>" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-99"></use></svg>拼多多</a></li>
+            <li><a rel="nofollow" href="https://mobile.yangkeduo.com/duo_cms_mall.html" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-99"></use></svg>拼多多</a></li>
             <li><a rel="nofollow" href="https://www.jd.com" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-jingdong"></use></svg>京东</a></li>
             <li><a rel="nofollow" href="https://www.suning.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-suning"></use></svg>苏宁易购</a></li>
             <li><a rel="nofollow" href="http://you.163.com/" target="_blank"><svg class="icon" aria-hidden="true"><use xlink:href="#icon-yanxuan"></use></svg>网易严选</a></li>
@@ -173,7 +173,7 @@ if (empty($q)) {
     </div-->    
     <div id="content">
         <div class="con">
-            <div class="shlogo" style="background: url(icon/logo3.svg) no-repeat center/cover;"></div>
+            <div class="shlogo" style="background: url(icon/logo.svg) no-repeat center/cover;"></div>
             <div class="sou">
                 <form action="" method="post" target="_self">
                    <?php 
@@ -193,12 +193,9 @@ if (empty($q)) {
             </div>
         </div>
         <div class="foot" style="height: 40px;">
-          <a href="https://blog.5iux.cn/" style="color: #777;">博客</a> | 
-          <a href="https://hao.5iux.cn/" style="color: #777;">设计导航</a> | 
-          <a href="https://dyartstyle.com/" style="color: #777;">设计资讯</a> | 
-          <a href="https://wat.dyartstyle.com/" style="color: #777;">吾爱淘</a> | 
+          <a href="https://moecola.com/" style="color: #777;">博客</a> | 
           <a href="https://github.com/5iux/sou/" style="color: #777;">Github</a><br>
-          © 2016-<?php echo date("Y") ?> by <a href="https://blog.5iux.cn/">5iux</a> . All rights reserved.</div>
+          © 2021-<?php echo date("Y") ?>&nbsp;Modified by <a href="https://moecola.com/">Moecola</a> </div>
     </div>
 <!--
 作者:D.Young
