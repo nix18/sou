@@ -62,7 +62,7 @@ if (empty($q)) {
         "horizontal": "left",
         "left": "10",
         "top": "10",
-        "key": "在https://widget.qweather.com/create-simple获取key"
+        "key": "580b614769884bbf82146ecc3e8aa959"
       }
     }
   </script>
