@@ -38,7 +38,35 @@ if (empty($q)) {
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
   <script src="//at.alicdn.com/t/font_400990_j21lstb4wx.js"></script>
   <script src="sou.js?t=<?php echo date("ymdhi"); ?>"></script>
-  <script src="wea.js?t=<?php echo date("ymdhi"); ?>"></script>
+  <!--<script src="wea.js?t=<?php echo date("ymdhi"); ?>"></script>-->
+  <!--和风天气官方插件-->
+  <script>
+    WIDGET = {
+      "CONFIG": {
+        "modules": "01234",
+        "background": "1",
+        "tmpColor": "FFFFFF",
+        "tmpSize": "16",
+        "cityColor": "FFFFFF",
+        "citySize": "16",
+        "aqiColor": "FFFFFF",
+        "aqiSize": "16",
+        "weatherIconSize": "24",
+        "alertIconSize": "18",
+        "padding": "10px 10px 10px 10px",
+        "shadow": "1",
+        "language": "auto",
+        "borderRadius": "5",
+        "fixed": "true",
+        "vertical": "top",
+        "horizontal": "left",
+        "left": "10",
+        "top": "10",
+        "key": "在https://widget.qweather.com/create-simple获取key"
+      }
+    }
+  </script>
+  <script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script>
 </head>
 
 <body>
@@ -58,6 +86,7 @@ if (empty($q)) {
     });
     /*随机bing背景end*/
     </script> -->
+    <div id="he-plugin-simple"></div>
     <div id="menu"><i></i></div>
     <div class="list closed">
         <ul>
@@ -156,7 +185,7 @@ if (empty($q)) {
         </ul>
     </div>
 <!--天气-->
-    <div class="mywth">
+    <!--<div class="mywth">
         <div class="wea_hover">
             <div class="wea_in wea_top"></div>
             <div class="wea_in wea_con">
@@ -167,7 +196,7 @@ if (empty($q)) {
             </div>
         </div>
         <!--天气插件，基于和风天气接口制作-->
-    </div>    
+    </div>-->  
     <!--div class="mywth" style="width: 200px;">
        <div id="he-plugin-simple"></div> <script>WIDGET = {CONFIG:{"modules":"10234","background":5,"tmpColor":"4A4A4A","tmpSize":"14","cityColor":"4A4A4A","citySize":"14","aqiSize":"14","weatherIconSize":"20","alertIconSize":"16","padding":"0px","shadow":"0","language":"auto","borderRadius":5,"fixed":"false","vertical":"middle","horizontal":"left","key":"f60588bd99d94495b907562a23e05666"}}</script> <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
     </div-->    
