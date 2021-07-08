@@ -1,5 +1,5 @@
-# 5IUX搜索  
-
+# Sou搜索  
+已修改
 用惯了各种导航首页，满屏幕尽是各种不厌其烦的广告和资讯；尝试自己写个自己的主页。不是镜像不是代理，就当做浏览器主页使用，支持自适应屏幕。  
 
 
@@ -13,7 +13,7 @@
 
 ## 下载地址：  
 
-[Releases](https://github.com/5iux/sou/releases)  
+[Releases](https://github.com/nix18/sou/releases)  
 
 ##  Gitee同步更新
 [https://gitee.com/cn5iux/sou](https://gitee.com/cn5iux/sou)   
@@ -55,6 +55,10 @@
 </style>
 ```
 
-## 其他
-我这个只是个示例，有需求还是自己改，不喜欢php想换成js也可以；
+## 更新日志
+20210708
+
+1、修复了失效的天气插件
+
+2、优化页面效果
 
